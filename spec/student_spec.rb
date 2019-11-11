@@ -1,4 +1,4 @@
-drequire "spec_helper"
+require "spec_helper"
 
 describe "Student" do
 
