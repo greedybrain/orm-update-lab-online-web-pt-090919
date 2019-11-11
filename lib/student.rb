@@ -10,5 +10,11 @@ class Student
     @id = id
   end
   
+  def self.create_table 
+    sql = <<-SQL 
+      CREATE TABLE IF NOT EXIST
+    SQL
+  end
+  
   # DB[:conn].execute(sql)
 end
