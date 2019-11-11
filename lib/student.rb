@@ -7,5 +7,6 @@ class Student
     @grade = grade
     @id = id
   end
-
+  
+  DB[:conn].execute(sql)
 end
