@@ -8,5 +8,5 @@ class Student
     @id = id
   end
   
-  DB[:conn].execute(sql)
+  # DB[:conn].execute(sql)
 end
