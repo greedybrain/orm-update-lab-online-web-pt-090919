@@ -56,8 +56,8 @@ class Student
     binding.pry
     new_student = Student.new
     new_student.name = row[0]
-    new_student.grade = row[2]
-    new_student.id = row[0]
+    new_student.grade = row[1]
+    new_student.id = row[2]
     new_student
   end
   
